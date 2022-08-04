@@ -170,7 +170,6 @@ export const TreeTable = React.forwardRef<TreeTableRef, TreeTableProps>(
           {...defaultTableProps}
           {...restProps}
           childrenColumnName={childrenColumnName}
-          bordered={false}
           indentSize={indentSize}
           columns={rewrittenColumns}
           components={components}
